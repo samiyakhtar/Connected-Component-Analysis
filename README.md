@@ -1,8 +1,3 @@
-# COSC 2306 - Data Programming 
-## Assignment - 2 ##
-
-### Due Date: Oct. 24, 11:59 PM ###
-
 #### The goal of this assignment is to use Stacks and Queues to perform floodfill operation and to understand the behavior of the two data structures. ####
 
 The goal of this assignment is to perform a common image processing operation known as connected component analysis.
