@@ -52,29 +52,3 @@ You are also given the driver program (ca-02.py) that calls methods to perform c
 Once you finish writing your methods, the driver program will also report time required in performing connected
 component analysis using Stack as well as Queue.  You are to consider the benefits or limitations of using these
 two data structure to perform connected component analysis, and report on your findings in the file **REPORT.md**.
-
-**Note:**
-
-**Do not use any in-built functions or external modules/libraries for image operations (E.g: np.mean, PIL).** In general, you can use function from math and random library. <br/>
-   
-  - Please do not change the code structure.
-  - Usage:
-   
-        - python ca-02.py -i <image-name> -t <threshold-value> -d 0
-        - Example: python ca-02.py -i Images/hubble.ppm -t 120 -d 0
-  - Please make sure the code runs when you run the above command from prompt/terminal
-  - All the output images and files are saved to "output/" folder
-  - You can set the value of -d to 1 if you would like to display images so you can verify them
-  - In this case, the example usage would be:
-  
-        - Example: python ca-02.py -i Images/hubble.ppm -t 120 -d 1
-
-Several images are provided for testing in the folder Images: e.g., Images\hubble.ppm and Images\hubble.pgm.<br>
-
-**PS. Please do not change: ca-02.py, dpcourse/Stack.py, dpcourse/Queue.py, imagesops/DSImage.py, requirements.txt, and Jenkinsfile.**
-
------------------------
-
-<sub><sup>
-License: Property of Quantitative Imaging Laboratory (QIL), Department of Computer Science, University of Houston. This software is property of the QIL, and should not be distributed, reproduced, or shared online, without the permission of the author This software is intended to be used by students of the Data Programming course offered at University of Houston. The contents are not to be reproduced and shared with anyone with out the permission of the author. The contents are not to be posted on any online public hosting websites without the permission of the author. The software is cloned and is available to the students for the duration of the course. At the end of the semester, the Github organization is reset and hence all the existing repositories are reset/deleted, to accommodate the next batch of students.
-</sub></sup>
